@@ -1,7 +1,6 @@
-import alexRiveraImg from './assets/alex-rivera.jpg'
-import emmaDevisImg from './assets/emma-devis.png'
-import mikeJohnsonImg from './assets/mike-johnson.png'
-import sarahChenImg from './assets/sarah-chen.png'
+const alexRiveraImg = 'https://via.placeholder.com/80?text=AR';
+const emmaDevisImg  = 'https://via.placeholder.com/80?text=ED';
+const mikeJohnsonImg = 'https://via.placeholder.com/80?text=MJ';
 
 export const stats = [
     {
