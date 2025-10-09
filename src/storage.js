@@ -1,5 +1,6 @@
 import alexRiveraImg from './assets/alex-rivera.jpg'
 import emmaDevisImg from './assets/emma-devis.png'
+import johnDoeImg from './assets/john-doe.png'
 import mikeJohnsonImg from './assets/mike-johnson.png'
 import sarahChenImg from './assets/sarah-chen.png'
 
