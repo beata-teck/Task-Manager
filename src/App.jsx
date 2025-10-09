@@ -134,4 +134,4 @@ export default function App() {
             <Footer />
         </>
     )
-}
+}import React from 'react';
