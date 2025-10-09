@@ -1,29 +1,41 @@
-.member-container {
+.tasks-container {
     display: flex;
-    align-items: center;
-    gap: .75rem;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: .5rem;
+}
+
+.tasks-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.tasks-header {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.task-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     background-color: var(--main-bg-color);
-    border-radius: .5rem;
-    padding: .75rem;
+    padding: 1rem;
     border: 1px solid var(--thin-border-color);
-    margin-bottom: .75rem;
-}
+    border-radius: .5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1);
+    transition: box-shadow .2s;
 
-.team-avatar {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-
-.team-info {
-    & h3 {
-        font-size: .875rem;
-        font-weight: 500;
-        margin-bottom: .05rem;
+    & h2 {
+        margin-bottom: -.2rem;
     }
 
-    & p {
-        font-size: .75rem;
-        color: var(--dim-font-color);
+    &:hover {
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .3);
     }
+}.task-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
